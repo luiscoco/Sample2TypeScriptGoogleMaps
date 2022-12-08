@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div id="ts-example">
+    <br />
+    <button type="button" class="btn btn-primary btn-md" onclick="TSButton()">
+        Click Me
+    </button>
+</div>
+
+<div id="floating-panel">
+    <b>Start: </b>
+    <select id="start">
+    <option value="chicago, il">Chicago</option>
+    <option value="st louis, mo">St Louis</option>
+    <option value="joplin, mo">Joplin, MO</option>
+    <option value="oklahoma city, ok">Oklahoma City</option>
+    <option value="amarillo, tx">Amarillo</option>
+    <option value="gallup, nm">Gallup, NM</option>
+    <option value="flagstaff, az">Flagstaff, AZ</option>
+    <option value="winona, az">Winona</option>
+    <option value="kingman, az">Kingman</option>
+    <option value="barstow, ca">Barstow</option>
+    <option value="san bernardino, ca">San Bernardino</option>
+    <option value="los angeles, ca">Los Angeles</option>
+    </select>
+    <b>End: </b>
+    <select id="end">
+    <option value="chicago, il">Chicago</option>
+    <option value="st louis, mo">St Louis</option>
+    <option value="joplin, mo">Joplin, MO</option>
+    <option value="oklahoma city, ok">Oklahoma City</option>
+    <option value="amarillo, tx">Amarillo</option>
+    <option value="gallup, nm">Gallup, NM</option>
+    <option value="flagstaff, az">Flagstaff, AZ</option>
+    <option value="winona, az">Winona</option>
+    <option value="kingman, az">Kingman</option>
+    <option value="barstow, ca">Barstow</option>
+    <option value="san bernardino, ca">San Bernardino</option>
+    <option value="los angeles, ca">Los Angeles</option>
+    </select>
+</div>
+
+<div class="row">
+<div class="column" id="map2"></div>
+<div class ="column" id="map1"></div>
+</div>
